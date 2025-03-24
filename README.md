@@ -1,2 +1,2 @@
 # GKU-FHNW
-Studium
+Geomatikstudium, austausch für Übungen und als gemeinsame Arbeitsplattform

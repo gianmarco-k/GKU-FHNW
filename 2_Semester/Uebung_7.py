@@ -22,8 +22,11 @@ plt.show()
 def f(x, y):
     return (np.exp(-x**2) * np.sin(y))
 
-x = np.linspace(-3, 3, 10)
-y = np.linspace(-3, 3, 10)
+x = np.linspace(-3, 3, 300)
+y = np.linspace(-np.pi, np.pi, 300)
+
+plt.scatter(y, np.exp(-x**2) * np.sin(y))
+plt.show()
 
 X, Y = np.meshgrid(x, y)
 
